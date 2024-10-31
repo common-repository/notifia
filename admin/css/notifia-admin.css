@@ -1,0 +1,302 @@
+.toplevel_page_notifia .wp-first-item {
+    display: none !important;
+}
+
+
+.notifia_page_notifia_sign_in #wpcontent,
+.notifia_page_notifia_sign_up #wpcontent,
+.toplevel_page_notifia #wpcontent {
+    padding-left: 0;
+}
+
+
+.toplevel_page_notifia .wp-menu-image img {
+    width: 16px;
+    height: 16px;
+}
+/* config.css */
+
+/* helpers/align.css */
+
+.nt-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #2c3338;
+    width: 100%;
+    color: #606468;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* helpers/grid.css */
+
+.nt-grid {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    max-width: 20rem;
+    width: 90%;
+}
+
+/* helpers/hidden.css */
+
+.nt-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* helpers/icon.css */
+
+.nt-icons {
+    display: none;
+}
+
+
+.nt-icon {
+    display: inline-block;
+    fill: #606468;
+    font-size: 16px;
+    font-size: 1rem;
+    height: 1em;
+    vertical-align: middle;
+    width: 1em;
+}
+
+
+/* modules/anchor.css */
+
+.nt-a {
+    color: #eee;
+    outline: 0;
+    text-decoration: none;
+}
+
+.nt-a:focus,
+.nt-a:hover {
+    text-decoration: underline;
+}
+
+/* modules/form.css */
+
+.nt-input {
+    background-image: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.nt-submit {
+    cursor: pointer;
+}
+
+.nt-form {
+    margin: -14px;
+    margin: -0.875rem;
+}
+
+.nt-display-none{
+    display:none;
+}
+
+.nt-form input[type='password'],
+.nt-form input[type='text'],
+.nt-form input[type='submit'] {
+    width: 100%;
+}
+
+.nt-form__field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 14px;
+    margin: 0.875rem;
+}
+
+.nt-form__input {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+/* modules/login.css */
+
+.nt-login {
+    color: #eee;
+}
+
+.nt-login label,
+.nt-login input[type='text'],
+.nt-login input[type='password'],
+.nt-login input[type='submit'] {
+    border-radius: 0.25rem;
+
+    padding: 16px;
+    padding: 1rem;
+}
+
+.nt-login label {
+    background-color: #363b41;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 20px;
+    padding-left: 1.25rem;
+    padding-right: 20px;
+    padding-right: 1.25rem;
+}
+
+.nt-login input[type='password'],
+.nt-login input[type='text'] {
+    background-color: #3b4148;
+    color: white !important;
+    border-bottom-left-radius: 0;
+    border: 0;
+    border-top-left-radius: 0;
+}
+
+.nt-login input[type='password']:focus,
+.nt-login input[type='password']:hover,
+.nt-login input[type='text']:focus,
+.nt-login input[type='text']:hover {
+    background-color: #434a52;
+}
+
+.nt-login input[type='submit'] {
+    border: 0;
+    background-color: #3569e7;
+    color: #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nt-login input[type='submit']:focus,
+.nt-login input[type='submit']:hover {
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+    text-decoration: none !important;
+}
+
+/* modules/text.css */
+
+.nt-p {
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    margin-top: 24px;
+    margin-top: 1.5rem;
+}
+
+.nt-text--center {
+    text-align: center;
+}
+
+
+.nt-font-size-17 {
+    font-size: 17px !important;
+}
+
+
+.nt-error-messages {
+    border: 1px solid rgb(220, 74, 61);
+    color:  rgb(220, 74, 61);
+    padding:4px;
+    font-size:14px;
+    font-family:inherit;
+    background: rgb(255, 255, 255)
+
+}
+
+/* social login */
+.nt-social-button {
+    background-position: 25px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 20%;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.nt-google-connect {
+    background: rgb(255, 255, 255) url("https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus.png") no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    border: 1px solid rgb(220, 74, 61);
+}
+
+.nt-google-connect:hover {
+    border-color: rgb(220, 74, 61);
+    background: rgb(220, 74, 61) url("https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png") no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease-out;
+}
+
+.nt-google-connect span {
+    box-sizing: border-box;
+    color: rgb(220, 74, 61);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.nt-google-connect:hover span {
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* social login */
